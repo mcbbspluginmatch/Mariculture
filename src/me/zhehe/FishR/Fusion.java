@@ -19,6 +19,7 @@ import me.zhehe.FishR.Type.WaterType;
  * @author Zhehe
  */
 public class Fusion {
+    // 硬编码太严重，不能写到配置文件里吗 —— 754503921
     public static class FusionIndex {
         public FishType FusionA;
         public FishType FusionB;

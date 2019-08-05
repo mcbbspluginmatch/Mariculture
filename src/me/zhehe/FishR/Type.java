@@ -11,9 +11,9 @@ package me.zhehe.FishR;
  */
 public class Type {
     public static enum WaterType { SWEET, SALT, BOTH; };
-    
+
     public static enum FishType {
-        PINGFAN(0),
+        PINGFAN(0), // 是不知道 .ordinal() 方法吗 —— 754503921
         PUSU(1),
         PUSHI(2),
         //PINGFAN x PUSU

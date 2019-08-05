@@ -82,7 +82,8 @@ public class SQLiteFishCatcher {
         }
         initialize();
     }
-    
+
+    // 挺想注入的 —— 754503921
     public void deleteLocation(String world, int x, int y, int z) {
         Connection conn = null;
         PreparedStatement ps = null;

@@ -143,6 +143,7 @@ public class EventManager implements Listener {
                 inv.removeItem(seed);
                 inv.addItem(fish[random.nextInt(fish.length)]);
             }
+            // 同步操作数据库 —— 754503921
             db.addLocation(world, x, y, z);
         }
     }
